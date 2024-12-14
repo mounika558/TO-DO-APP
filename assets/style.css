@@ -90,7 +90,11 @@ h3{
     .main{
         justify-content: space-around;
         flex-direction: column;
-        margin: 20px auto auto auto;
+        width:420px;
+        margin: 20px auto auto 20px;
+    }
+    .main input{
+        margin: 40px auto;
     }
     .main>button{
         margin:auto;
@@ -101,6 +105,7 @@ h3{
     #items>div{
     width:auto;
     height:fit-content;
+    margin-left:20px;
     }
 
 }
